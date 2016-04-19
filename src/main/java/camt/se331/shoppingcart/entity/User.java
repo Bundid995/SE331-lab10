@@ -26,7 +26,7 @@ public class User {
     // Cascade and CascadeType must be the org.hibernate.annotation
     @Cascade(CascadeType.ALL)
     private Set<Role> roles = new HashSet<>();
-    
+
     public User() {
     }
 
